@@ -22,5 +22,6 @@ public class JavaLoops {
             System.out.println();
             q--;
         }
+        bufferedReader.close();
     }
 }
