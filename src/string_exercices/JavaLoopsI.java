@@ -1,3 +1,5 @@
+package string_exercices;
+
 public class JavaLoopsI {
     public static void main(String[] args) {
         int N = 2;

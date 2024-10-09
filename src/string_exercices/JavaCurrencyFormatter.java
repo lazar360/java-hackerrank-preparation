@@ -1,3 +1,5 @@
+package string_exercices;
+
 import java.io.*;
 import java.math.BigDecimal;
 import java.text.NumberFormat;

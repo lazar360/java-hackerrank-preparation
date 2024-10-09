@@ -1,3 +1,5 @@
+package string_exercices;
+
 import java.io.*;
 import java.util.regex.Pattern;
 import java.util.regex.PatternSyntaxException;

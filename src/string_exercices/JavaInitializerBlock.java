@@ -1,3 +1,5 @@
+package string_exercices;
+
 import java.io.*;
 
 public class JavaInitializerBlock {

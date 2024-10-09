@@ -1,3 +1,5 @@
+package string_exercices;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;

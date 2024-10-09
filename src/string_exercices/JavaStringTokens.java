@@ -1,3 +1,5 @@
+package string_exercices;
+
 import java.util.List;
 
 public class JavaStringTokens {

@@ -1,3 +1,5 @@
+package string_exercices;
+
 import java.util.regex.*;
 
 public class JavaTagContentExtractor {
