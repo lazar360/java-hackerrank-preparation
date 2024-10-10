@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class JavaDatatypes {
     public static void main(String[] args) {
-        File file = new File("C:\\Users\\NICOLAS.GAUTIER\\intellij-workspace\\java-hackerrank-preparation\\src\\strfordatatype.txt");
+        File file = new File("src/string_exercices/strfordatatype.txt");
 
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader(file))) {
             int q = Integer.parseInt(bufferedReader.readLine().trim());

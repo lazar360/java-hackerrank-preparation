@@ -8,7 +8,7 @@ public class JavaAnagrams {
 
     public static void main(String[] args) throws IOException {
 
-        File file = new File("C:\\Users\\NICOLAS.GAUTIER\\intellij-workspace\\java-hackerrank-preparation\\src\\strforanagrams.txt");
+        File file = new File("src/string_exercices/strforanagrams.txt");
         BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
         String a = bufferedReader.readLine();
         String b = bufferedReader.readLine();

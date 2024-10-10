@@ -7,7 +7,7 @@ public class JavaInitializerBlock {
     static {
         try {
             // BufferedReader bufferedReader = new BufferedReader((new InputStreamReader(System.in)));
-            File file = new File("C:\\Users\\NICOLAS.GAUTIER\\intellij-workspace\\java-hackerrank-preparation\\src\\strforinitializerblock.txt");
+            File file = new File("src/string_exercices/strforinitializerblock.txt");
             BufferedReader bufferedReader = new BufferedReader((new FileReader(file)));
             int B = Integer.parseInt(bufferedReader.readLine());
             int H = Integer.parseInt(bufferedReader.readLine());

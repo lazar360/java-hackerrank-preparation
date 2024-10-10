@@ -7,7 +7,7 @@ import java.util.regex.PatternSyntaxException;
 public class PatternSyntaxChecker {
 
     public static void main(String[] args) throws IOException {
-        File file = new File("C:\\Users\\NICOLAS.GAUTIER\\intellij-workspace\\java-hackerrank-preparation\\src\\strforpatternsyntaxchecker.txt");
+        File file = new File("src/string_exercices/strforpatternsyntaxchecker.txt");
         BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
         int N = Integer.parseInt(bufferedReader.readLine());
 

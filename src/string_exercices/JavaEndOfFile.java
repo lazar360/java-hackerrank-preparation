@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class JavaEndOfFile {
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("C:\\Users\\NICOLAS.GAUTIER\\intellij-workspace\\java-hackerrank-preparation\\src\\strforjavaendoffile.txt");
+        File file = new File("src/string_exercices/strforjavaendoffile.txt");
         Scanner scan = new Scanner(file);
 
         int count = 1;

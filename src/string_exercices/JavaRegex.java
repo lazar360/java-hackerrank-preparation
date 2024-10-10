@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 public class JavaRegex {
 
     public static void main(String[] args) throws IOException {
-        File file = new File("C:\\Users\\NICOLAS.GAUTIER\\intellij-workspace\\java-hackerrank-preparation\\src\\strforjavaregex.txt");
+        File file = new File("src/string_exercices/strforjavaregex.txt");
         BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
         String line;
         Pattern pattern = Pattern.compile(new MyRegex().getIpAddressRegex(), Pattern.CASE_INSENSITIVE);

@@ -5,7 +5,7 @@ import java.io.*;
 public class JavaOutputFormatting {
     public static void main(String[] args) throws IOException {
 
-        File file = new File("C:\\Users\\NICOLAS.GAUTIER\\intellij-workspace\\java-hackerrank-preparation\\src\\strforexercises.txt");
+        File file = new File("src/string_exercices/strforexercises.txt");
         BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
         String line;
         System.out.println("================================");

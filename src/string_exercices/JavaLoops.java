@@ -5,7 +5,7 @@ import java.io.*;
 public class JavaLoops {
 
     public static void main(String[] args) throws IOException {
-        File file = new File("C:\\Users\\NICOLAS.GAUTIER\\intellij-workspace\\java-hackerrank-preparation\\src\\strforjavaloops.txt");
+        File file = new File("src/string_exercices/strforjavaloops.txt");
         // BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
         int q = Integer.parseInt(bufferedReader.readLine());

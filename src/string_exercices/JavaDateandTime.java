@@ -16,7 +16,7 @@ public class JavaDateandTime {
      */
     public static void main(String[] args) throws IOException {
         // BufferedReader bufferedReader = new BufferedReader((new InputStreamReader(System.in)));
-        File file = new File("C:\\Users\\NICOLAS.GAUTIER\\intellij-workspace\\java-hackerrank-preparation\\src\\strforjavadateandtime.txt");
+        File file = new File("src/string_exercices/strforjavadateandtime.txt");
         BufferedReader bufferedReader = new BufferedReader((new FileReader(file)));
         String[] firstMultipleInput = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
         int month = Integer.parseInt(firstMultipleInput[0]);

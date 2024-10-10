@@ -6,7 +6,7 @@ public class JavaInttoString {
 
     public static void main(String[] args) throws FileNotFoundException {
         // BufferedReader bufferedReader = new BufferedReader((new InputStreamReader(System.in)));
-        File file = new File("C:\\Users\\NICOLAS.GAUTIER\\intellij-workspace\\java-hackerrank-preparation\\src\\strforjavainttostring");
+        File file = new File("src/string_exercices/strforjavainttostring.txt");
         BufferedReader bufferedReader = new BufferedReader((new FileReader(file)));
 
         try{

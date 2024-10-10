@@ -10,7 +10,7 @@ public class JavaCurrencyFormatter {
 
     public static void main(String[] args) throws IOException {
         // BufferedReader bufferedReader = new BufferedReader((new InputStreamReader(System.in)));
-        File file = new File("C:\\Users\\NICOLAS.GAUTIER\\intellij-workspace\\java-hackerrank-preparation\\src\\strforjavacurrencyformatter.txt");
+        File file = new File("src/string_exercices/strforjavacurrencyformatter.txt");
         BufferedReader bufferedReader = new BufferedReader((new FileReader(file)));
         double payment = Double.parseDouble(bufferedReader.readLine());
         NumberFormat n1 = NumberFormat.getCurrencyInstance(Locale.US);
