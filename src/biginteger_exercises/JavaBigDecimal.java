@@ -1,3 +1,5 @@
+package biginteger_exercises;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -15,7 +17,7 @@ public class JavaBigDecimal {
 
     public static void main(String[] args) throws IOException {
 
-        File file = new File("src/strforjavabigdecimal.txt");
+        File file = new File("src/biginteger_exercises/strforjavabigdecimal.txt");
         BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
         int n = Integer.parseInt(bufferedReader.readLine());
         List<String> stringList = new ArrayList<>();
