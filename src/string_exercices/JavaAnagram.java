@@ -14,6 +14,7 @@ public class JavaAnagram {
         for (int i = 0; i < array.length / 2; i++) {
             if (array[i] != array[array.length - i - 1]) {
                 result = "No";
+                break;
             }
         }
 
