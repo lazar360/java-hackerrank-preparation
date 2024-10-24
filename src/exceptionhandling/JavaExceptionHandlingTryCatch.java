@@ -1,6 +1,7 @@
 package exceptionhandling;
 
 import java.io.*;
+import java.util.InputMismatchException;
 
 public class JavaExceptionHandlingTryCatch {
 
@@ -11,8 +12,11 @@ public class JavaExceptionHandlingTryCatch {
             int x = Integer.parseInt(bufferedReader.readLine());
             int y = Integer.parseInt(bufferedReader.readLine());
             System.out.println(x/y);
-        } catch (Exception e) {
-            System.out.println(e.getClass());
+        } catch(InputMismatchException obj){
+            System.out.println("java.util.InputMismatchException");
+        }
+        catch(Exception e){
+            System.out.println(e);
         }
 
 
