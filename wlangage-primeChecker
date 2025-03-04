@@ -1,0 +1,23 @@
+PROCÉDURE PrimeChecker(nNombre1, nNombre2 sont des entiers)
+
+InfoAvecDélai(2s,"Vérifier dans une liste de "+nNombre1+" à "+nNombre2+" si le nombre est prime ou pas")
+
+POUR i = nNombre1 _À_ nNombre2
+	
+	SI Checker(i) ALORS 
+		InfoAvecDélai(2s,i + " est un nombre prime")
+	SINON
+		InfoAvecDélai(2s,i + "n'est pas un nombre prime")
+	FIN
+	
+FIN
+
+
+	PROCÉDURE INTERNE Checker(nNombreAVerifier est un entier):booléen
+		bEstPrime est un booléen = Vrai
+		SI nNombreAVerifier = 2 OU nNombreAVerifier = 3 RENVOYER bEstPrime
+		POUR i=2 _À_ Puissance(nNombreAVerifier,2)
+			SI nNombreAVerifier % i = 0 ET PAS i = nNombreAVerifier ALORS bEstPrime = Faux 
+		FIN
+		RENVOYER bEstPrime
+	FIN
