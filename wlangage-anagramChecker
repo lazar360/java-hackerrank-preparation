@@ -1,0 +1,15 @@
+sChaineAVerifier est une chaîne = SAI_Anagram
+bEstAnagram est un booléen = Vrai
+
+POUR i=1 _À_ Taille(sChaineAVerifier)/ 2
+	SI sChaineAVerifier[i] <> sChaineAVerifier[Taille(sChaineAVerifier)-i+1] ALORS
+		bEstAnagram = Faux
+		SORTIR		
+	FIN
+FIN
+
+SI bEstAnagram ALORS
+	Info(sChaineAVerifier + " est un anagramme ")
+SINON
+	Info(sChaineAVerifier + " n'est pas un anagramme ")
+FIN
